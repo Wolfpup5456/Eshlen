@@ -1,2 +1,2 @@
 npx quartz sync
-PAUSE
+STOP
