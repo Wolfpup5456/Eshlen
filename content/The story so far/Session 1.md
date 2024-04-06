@@ -1,11 +1,11 @@
 
 ---
-title: "Session 1"
+title: Session 1
 draft: false
 tags:
-  - 
----
 
+---
+ 
 On May 12th, 1024, Plop is killed by _Glurp Slurmton_. All that is left behind for his two adopted sons is a map seen below.
 
 On May 15th, 1024, _Gunk, Glurp Slurmton, and Kenigan Coo_ all embark on a journey to scatter _Plop's_ ashes
