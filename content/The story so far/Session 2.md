@@ -1,12 +1,11 @@
-```
+
 ---
 title: "Session 2"
 draft: false
 tags:
   - 
 ---
- 
-```
+
 
 May 15th, 1027, Session 2 picked up where Session 1 ended 
 

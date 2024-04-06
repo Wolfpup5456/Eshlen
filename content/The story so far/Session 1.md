@@ -1,12 +1,10 @@
-```
+
 ---
 title: "Session 1"
 draft: false
 tags:
   - 
 ---
- 
-```
 
 On May 12th, 1024, Plop is killed by _Glurp Slurmton_. All that is left behind for his two adopted sons is a map seen below.
 
