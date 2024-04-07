@@ -7,5 +7,5 @@ draft: false
 
 ---
 aliases:
-  - The Drunken Rat (formally)
+  - The Drunker Rat (formally)
 ---
