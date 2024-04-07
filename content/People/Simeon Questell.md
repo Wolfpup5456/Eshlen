@@ -1,6 +1,6 @@
 
 ---
-title: Simeon Questell or The Cartographer
+title: Simeon Questell
 draft: false
 
 ---
