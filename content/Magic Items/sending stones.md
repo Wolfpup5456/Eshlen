@@ -11,6 +11,6 @@ _Sending stones_ come in pairs, with each smooth stone carved to match the other
 
 Once _[sending](http://dnd5e.wikidot.com/spell:sending)_ is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.
 
-![[sending.png]]
+![[Sending.png]]
 
 (http://dnd5e.wikidot.com/wondrous-items:sending-stones)
