@@ -1,7 +1,6 @@
 
-
 ---
-title: "<% tp.file.title %>"
+title: "Ghaunadaur"
 draft: false
 
 ---

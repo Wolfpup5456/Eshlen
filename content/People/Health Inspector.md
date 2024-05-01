@@ -1,7 +1,7 @@
 
 
 ---
-title: "<% tp.file.title %>"
+title: "Health Inspector"
 draft: false
 
 ---

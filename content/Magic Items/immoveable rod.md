@@ -1,6 +1,6 @@
 
 ---
-title: "<% tp.file.title %>"
+title: "Immoveable rod"
 draft: false
 
 ---

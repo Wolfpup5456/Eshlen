@@ -1,6 +1,6 @@
 
 ---
-title: "<% tp.file.title %>"
+title: "Portable hole"
 draft: false
 
 ---

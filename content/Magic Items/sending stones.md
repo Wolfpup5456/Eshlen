@@ -1,6 +1,6 @@
 
 ---
-title: "<% tp.file.title %>"
+title: "Sending stones"
 draft: false
 
 ---
