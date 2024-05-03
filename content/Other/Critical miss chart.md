@@ -1,7 +1,7 @@
 
 
 ---
-title: "<"Critical miss chart">"
+title: Critical miss chart"
 draft: false
 
 ---

@@ -1,7 +1,7 @@
 
 
 ---
-title: "<"Lingering Wounds Chart">"
+title: "Lingering Wounds Chart"
 draft: false
 
 ---
