@@ -1,8 +1,0 @@
-
-
----
-title: "rock"
-draft: false
-
----
-
