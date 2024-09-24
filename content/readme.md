@@ -1,46 +1,50 @@
-# strip-ansi [![Build Status](https://travis-ci.org/chalk/strip-ansi.svg?branch=master)](https://travis-ci.org/chalk/strip-ansi)
+# string-width
 
-> Strip [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code) from a string
+> Get the visual width of a string - the number of columns required to display it
+
+Some Unicode characters are [fullwidth](https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms) and use double the normal width. [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code) are stripped and doesn't affect the width.
+
+Useful to be able to measure the actual width of command-line output.
 
 
 ## Install
 
 ```
-$ npm install strip-ansi
+$ npm install string-width
 ```
 
 
 ## Usage
 
 ```js
-const stripAnsi = require('strip-ansi');
+const stringWidth = require('string-width');
 
-stripAnsi('\u001B[4mUnicorn\u001B[0m');
-//=> 'Unicorn'
+stringWidth('a');
+//=> 1
 
-stripAnsi('\u001B]8;;https://github.com\u0007Click\u001B]8;;\u0007');
-//=> 'Click'
+stringWidth('古');
+//=> 2
+
+stringWidth('\u001B[1m古\u001B[22m');
+//=> 2
 ```
-
-
-## strip-ansi for enterprise
-
-Available as part of the Tidelift Subscription.
-
-The maintainers of strip-ansi and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. [Learn more.](https://tidelift.com/subscription/pkg/npm-strip-ansi?utm_source=npm-strip-ansi&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)
 
 
 ## Related
 
-- [strip-ansi-cli](https://github.com/chalk/strip-ansi-cli) - CLI for this module
-- [strip-ansi-stream](https://github.com/chalk/strip-ansi-stream) - Streaming version of this module
-- [has-ansi](https://github.com/chalk/has-ansi) - Check if a string has ANSI escape codes
-- [ansi-regex](https://github.com/chalk/ansi-regex) - Regular expression for matching ANSI escape codes
-- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right
+- [string-width-cli](https://github.com/sindresorhus/string-width-cli) - CLI for this module
+- [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string
+- [widest-line](https://github.com/sindresorhus/widest-line) - Get the visual width of the widest line in a string
 
 
-## Maintainers
+---
 
-- [Sindre Sorhus](https://github.com/sindresorhus)
-- [Josh Junon](https://github.com/qix-)
-
+<div align="center">
+	<b>
+		<a href="https://tidelift.com/subscription/pkg/npm-string-width?utm_source=npm-string-width&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
+	</b>
+	<br>
+	<sub>
+		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
+	</sub>
+</div>
